@@ -89,7 +89,7 @@ joblib.dump(best_model, "best_pima_diabetes_model_v1.joblib")
 repo_id = "GaryWilliams1668/PIMA3HFSpaceName"                                         # enter the Hugging Face username here
 repo_type = "model"
 
-api = HfApi(token=os.getenv("HF_PIMA3_TOKEN"))
+ api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Step 1: Check if the space exists
 try:

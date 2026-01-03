@@ -7,7 +7,7 @@ repo_id = "GaryWilliams1668/PIMA3HFSpaceName"         # enter the Hugging Face u
 repo_type = "dataset"
 
 # Initialize API client
-api = HfApi(token=os.getenv("HF_PIMA3_TOKEN"))
+ api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Step 1: Check if the space exists
 try:
